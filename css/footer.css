@@ -1,0 +1,42 @@
+.footer {
+	margin:auto;
+	background-color:#707070;
+	height: 100px;
+	width: 100%;
+	
+}
+
+.footer_upperspace  {
+	background-color:#C0C0C0;
+	height:40%;
+	width: 100%;
+}
+
+.footer a:hover {
+	background: transparent;
+	text-decoration: underline;
+}
+
+#footer_titles{
+	position:relative;
+	color:#000000;
+	top:25%;
+	left:3.5%;
+	width: 96.5%;
+	font-family: "Times New Roman", Times, serif,Georgia;
+	font-size:80%;
+}
+
+.footer_lowerspace{
+	background-color:#707070;
+	position: relative;
+	top:20%;
+	padding-left: 8%;
+	width: 92%;
+	
+}
+
+#icon{
+	width:2%;
+	height:2%;
+}

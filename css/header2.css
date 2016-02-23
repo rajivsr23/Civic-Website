@@ -1,0 +1,72 @@
+
+/*Main Header Container */
+.header{
+  color:#FFFFFF;    /*White Color*/
+  height:60px;
+  width:100%;
+  margin:auto;
+}
+/*Inner Logo Container on the left*/
+.header_logo{
+  width:40%;
+  height:100%;
+  float:left;
+}
+#logo{
+  height:100%;
+  top:0;
+  left:0;
+  width:50%;
+}
+/*Inner Title Container on the right*/
+.header_title{
+  width:60%;
+  float:left;
+}
+#titles{
+  position:absolute;
+  top:20px;
+  font-family: "Times New Roman", Times, serif,Georgia;
+  font-size:97%;
+  color:#000000;
+}
+ul{
+  list-style-type:none;
+}
+li{
+  display:inline-block;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+  padding: 21px 10px;
+}
+
+ul a:hover{
+  background-color:#4d94ff;  /*Sky Blue Color */
+
+}
+
+ul li ul{
+  display:none; /*Hiding The Child Elements*/
+}
+li ul li{
+	padding: 21px 10px;
+	background-color:#4d94ff ;
+	}
+	
+	
+ul li:hover ul{   /*For all the ul elements whose parent is being hovered over*/
+  display: block;
+  position: absolute;
+  
+  width: 100%;
+  top: 40px;
+  left: 0;
+  white-space: nowrap;
+}
+
+ul li ul li:hover{
+	background-color:#C0C0C0;	
+	}
