@@ -40,3 +40,16 @@
 	width:2%;
 	height:2%;
 }
+
+#enquiry{
+	height: 20px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: #69D2E7;
+    text-align: center;
+    color: #000000;
+    font-family: Verdana, Arial, Sans-Serif;
+    opacity: 0.3;
+	
+	
+}
