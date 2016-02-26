@@ -1,6 +1,6 @@
 <?php
 
-$to      = $_POST['name'];
+$to = $_POST['email'];
 $subject='Civic Steel Replies';
 $message = $_POST['message'];
 
