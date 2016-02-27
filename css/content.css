@@ -33,21 +33,28 @@ img{
 	display:none;
 	position:absolute;
 	height: 35%;
-	width:50%;
+	width:35%;
 	background-color: #FFFAF0;
 	top:25%;
 	left:40%;
 	
 	
 }
-
+#contactform_titles{
+	position:relative;
+	width:50%;
+	height:auto;
+	margin: auto;
+	top:5%;
+	
+}
 #closeform{
 	position:absolute;
 	float:right;
 	background-color:#ff3333;
 	color:white;
 	text-align:center;
-	height:5%;
+	height:10%;
 	width:5%;
 	right:0%;
 	
@@ -55,7 +62,7 @@ img{
 
 
 input:not([type=submit]){
-	width:50%;
+	width:70%;
 	padding: 6px 20px;
 	border: 1px solid black;
 	margin: 4px 0;
