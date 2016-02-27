@@ -3,10 +3,11 @@
 	$name=$_POST['name'];
 	$email_address = $_POST['email'];
 	$subject='Civic Steel Replies';
+	$phone=$_POST['phone'];
 	$message=$_POST['msg'];
 	$body = "You have received a new message. ".
 	" Here are the details:\n Name: $name \n ".
-	"Email: $email_address\n Message: $message \n ";
+	"Email: $email_address\n Phone Number: $phone \n Message: $message \n ";
 	
 	mail('rajivsr2309@gmail.com,rajivsr5462@gmail.com', $subject, $body);
 ?> 
