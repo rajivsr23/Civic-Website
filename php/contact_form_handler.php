@@ -9,9 +9,7 @@
 	" Here are the details:\n Name: $name \n ".
 	"Email: $email_address\n Phone Number: $phone \n Message: $message \n ";
 	
-	mail('rajivsr2309@gmail.com,rajivsr5462@gmail.com', $subject, $body);
-	$url="/index.php";
+	mail('rajivsr2309@gmail.com,sreesh.reeja@gmail.com', $subject, $body);
+	$url="http://www.civicsteel.com";
 	header( "Location: $url" );
-	
-}
-?> 
+	?> 
