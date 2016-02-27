@@ -1,4 +1,5 @@
 <?php
+	/*From: rajivsr2309@gator4261.hostgator.com*/
 	$name=$_POST['name'];
 	$email_address = $_POST['email'];
 	$subject='Civic Steel Replies';
@@ -7,5 +8,5 @@
 	" Here are the details:\n Name: $name \n ".
 	"Email: $email_address\n Message: $message \n ";
 	
-	mail('rajivsr2309@gmail.com', $subject, $body);
+	mail('rajivsr2309@gmail.com','rajivsr5462@gmail.com', $subject, $body);
 ?> 
