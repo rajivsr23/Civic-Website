@@ -1,9 +1,7 @@
 <?php
-
 $to = $_POST['email'];
 $subject='Civic Steel Replies';
-$message = $_POST['message'];
-
+$message = $_POST['msg'];
 
 mail($to, $subject, $message);
 ?> 
