@@ -13,5 +13,5 @@
 	$url="/index.php";
 	header( "Location: $url" );
 	
-}
+
 ?> 
