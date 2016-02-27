@@ -8,5 +8,5 @@
 	" Here are the details:\n Name: $name \n ".
 	"Email: $email_address\n Message: $message \n ";
 	
-	mail('rajivsr2309@gmail.com','rajivsr5462@gmail.com', $subject, $body);
+	mail('rajivsr2309@gmail.com,rajivsr5462@gmail.com', $subject, $body);
 ?> 
