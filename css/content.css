@@ -16,17 +16,26 @@ img{
 
 #enquirybutton{
 	position:absolute;
-	top:25%;
-	left:40%;
-	height: 5%;
-    width: 20%;
+	top:20%;
+	left:50%;
+	height: 90px;
+    width: 90px;
 	margin: 0 auto;
-    border-radius: 5px;
-    background-color: #ff6600;
+    border-radius: 45px;
+    background-color: #ffffcc;
     text-align: center;
-    color: #FFFFFF;
+    color: black;
     font-family: Verdana, Arial, Sans-Serif;
     opacity: 0.5;
+}
+
+#enquirybutton a{
+  font-family: "Times New Roman", Times, serif,Georgia;
+  font-size:97%;
+  color:black;
+  position:relative;
+  text-decoration:none;
+  top:25%;
 }
 
 #contactform{
