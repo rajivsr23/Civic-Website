@@ -70,6 +70,9 @@ img{
 	
 }
 
+#closeform a:hover{
+ cursor: pointer;
+}
 
 input:not([type=submit]){
 	width:70%;
