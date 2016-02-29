@@ -38,7 +38,9 @@ img{
    font-weight: bold;
   top:25%;
 }
-
+#enquirybutton a:hover{
+	cursor:pointer;
+}
 #contactform{
 	display:none;
 	position:absolute;
