@@ -49,7 +49,7 @@ img{
 	background-color: #FFFAF0;
 	top:25%;
 	left:40%;
-	
+	box-shadow: 10px 10px 5px #888888;  /*Shadow Effect on the contact form*/
 	
 }
 #contactform_titles{
