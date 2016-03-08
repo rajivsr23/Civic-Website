@@ -125,5 +125,14 @@ input[type=submit]{
 	
 }
 
+/*Contact Us*/
+	video{
+	-webkit-transform: scaleX(2);	
+   height:525px;
+   margin:auto;
+  
+	
+	}
+
 
 
