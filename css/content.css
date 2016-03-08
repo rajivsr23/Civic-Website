@@ -7,7 +7,7 @@
 	
 	height:525px;
 	margin:auto;
-	background-color:#000000;
+	background-color:#000099;
 }
 img{
 	width:100%;
@@ -91,4 +91,39 @@ input[type=submit]{
 	margin: 25px 0;
 	color:white;
 }
+
+/*About Us Page*/
+
+	
+#aboutcontent{
+	position:absolute;
+	width:60%;
+	height:50%;
+	background-color:white;
+	top:25%;
+	left:30%;
+	
+	
+}
+
+#aboutimg{
+	height:25%;
+	width:30%;
+	position:relative;
+	left:35%;
+	
+}
+
+#aboutcontenttitles{
+	position:relative;
+	top:10%;
+	color:black;
+	 font-family: Tahoma, Verdana, Arial, Helvetica;
+     font-size:110%;
+	 margin-left:5%;
+	 margin-right:5%;
+	
+}
+
+
 
